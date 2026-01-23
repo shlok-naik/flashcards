@@ -9,13 +9,22 @@
 <body>
     <script src = 'script.js' defer> </script>
     <div class="flashcard-container">
-        <button id="flashcard">Card 1</button>
+        <div class="flashcard" id="flashcard">
+            <div class="flashcard-inner">
+                <div class="flashcard-front">
+                Card 1
+                </div>
+                <div class="flashcard-back">
+                Answer
+                </div>
+            </div>
+            </div>
         <div id="buttons">
             <button id="correct">Correct</button>
             <button id="incorrect">Incorrect</button>
         </div>
-
-        <p id="counter">Done: 0</p>
+        <button id="addCard">Add</button>
+        <p id="counter">Done: 0/0</p>
     </div>
 
 </body>
